@@ -29,7 +29,7 @@ def excel_To_List():
 
 def Result_Out_Excel(DataOut):
     dt = str(datetime.date.today());
-    filename = "Lenovo_FR_"+dt
+    filename = "Lenovo_"+country+"_"+dt
     path = "E:\Hemant Python\AMD\\" +filename+".xlsx"
     workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet()
